@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce product page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span>Sneakers</span>
+                <i class="fa-solid fa-shoe-prints"></i>
+                 </div>
+                 <input type="checkbox" id="click">
+                 <label for="click" class="menu"><i class="fa-solid fa-bars"></i></label>
+            <nav>
+                <ul>
+                    <li>Collections</li>
+                    <li>Men</li>
+                    <li>Woman</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <section>
+            <div class="img-info">
+                <p>Yellow Sport Shoes</p>
+                <h4>Sport Shoes Run Star Motion</h4>
+                <span>EGP3,100.00</span><br>
+                <span>EGP2,299.00</span>
+            <div class="size">
+                <h5>Select Size : </h5>
+                <span>36</span>
+                <span>37</span>
+                <span>38</span>
+                <span>39</span>
+                <span>40</span>
+                <span>41</span>
+            </div>
+            <button>ADD TO WISHLIST <i class="fa-regular fa-heart"></i></button>
+            <button>ADD TO BAG <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="main-image">
+                <img src="img/1.jpg" name="main" alt="...">
+            </div>
+
+        </section>
+
+        <div class="images">
+            <img onclick="main.src = this.src" src="img/2.jpg" alt="...">
+            <img onclick="main.src = this.src" src="img/3.jpg" alt="">
+            <img onclick="main.src = this.src" src="img/4.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
